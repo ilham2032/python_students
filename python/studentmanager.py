@@ -8,7 +8,7 @@ class StudentManager:
 
     def rem_student(self,name):
         for student in self.students:
-            if studnet.name == name:
+            if student.name == name:
                 self.student.remove(student)
                 print('Removed succesfully')
             else:
